@@ -183,7 +183,7 @@ end
         <p><code>:pre_reload</code></p>
       </td>
       <td>
-        <p>Just before reloading site plugins and Zeitwerk autoloaders during the watch process or in the console</p>
+        <p>Just before reloading site plugins and Zeitwerk autoloaders during the watch process or in the console. The `site` and `paths` (file changes, if any, which triggered the reload) arguments are provided</p>
       </td>
     </tr>
     <tr>
@@ -194,7 +194,7 @@ end
         <p><code>:post_reload</code></p>
       </td>
       <td>
-        <p>After reloading site plugins and Zeitwerk autoloaders during the watch process or in the console</p>
+        <p>After reloading site plugins and Zeitwerk autoloaders during the watch process or in the console. The `site` and `paths` (file changes, if any, which triggered the reload) arguments are provided</p>
       </td>
     </tr>
     <tr>
